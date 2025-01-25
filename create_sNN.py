@@ -78,6 +78,5 @@ for i in range(10):
         if currentOutput.item() == 1:
             correctAnswer = True
     print('input: ', round(currentInput.item(), 2), '| predict 0: ', round(probs[:,0].item(), 2), '| predict 1: ', round(probs[:,1].item(), 2), '| target ouput: ', currentOutput.item(), '| correct: ', correctAnswer)
-    
-    
+
     
